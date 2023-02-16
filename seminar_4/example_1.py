@@ -5,3 +5,8 @@
 # Пользователь вводит 2 числа. n - кол-во элементов первого
 #  множества. m - кол-во элементов второго множества.
 #   Затем пользователь вводит сами элементы множеств
+
+from random import raundint
+list_1 = [randint(1, 11) for _ in range(int(input('enter the count: ')))]
+list_2 = [randint(1, 11) for _ in range(int(input('enter the count2: ')))]
+print(*(set(list_1.append(list_2))))
